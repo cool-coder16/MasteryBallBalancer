@@ -31,7 +31,9 @@ This led me to do some side projects, to acquire the knowledge I needed. So firs
 
 ## Coin Flipper
 
-After the PCB finally arrived, I combined everything, and it turned out like this: ![Coin Flipper Image](images/SRC.mp4)
+First, I tested using a breadboard, because all of my parts arrived before the PCB, and it worked pretty well - all of the wiring and code worked. ![Breadboard Coin Flipper Video](images/SRC1.mp4)
+
+After the PCB finally arrived, I combined everything, and it turned out like this: ![Final Coin Flipper Video](images/SRC.mp4)
 
 ## Final Project
 
@@ -43,4 +45,4 @@ I used Claude to help me come up with my parts list, which filled all of my requ
 
 ### PCB Design
 
-For this project, I needed a more complicated PCB, with spots for servos, a camera, and a lot of other parts, but they couldn't be connected. This meant I had to make a lot of ports for me to solder wires in. Also, my Raspberry Pi 3A+ had it's headers on top, so I had to design the PCB to go upside down, and plug into that.
+For this project, I needed a more complicated PCB, with spots for servos, a camera, and a lot of other parts, but they couldn't be connected. This meant I had to make a lot of ports for me to solder wires in. Also, my Raspberry Pi 3A+ had it's headers on top, so I had to design the PCB to go upside down, and plug into that. This PCB didn't have to be too complicated though - it only had to fit a servo controller, the Raspberry Pi, and spots for the battery to be soldered in.
