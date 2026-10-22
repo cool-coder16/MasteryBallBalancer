@@ -41,8 +41,8 @@ This is my final project's work.
 
 ### Parts List
 
-I used Claude to help me come up with my parts list, which filled all of my requirements. I had to cut some things which would have been nice, but were too expensive. This parts list is at [ball balancer/parts-list.md](ball%20balancer/parts-list.md), and after some iterations, I got it down to around $130, which would fit my budget.
+I used Claude to help me come up with my parts list, which filled all of my requirements. I had to cut some things which would have been nice, but were too expensive. This parts list is at [ball balancer/parts-list.md](ball%20balancer/parts-list.md), and after some iterations, I got it down to around $130, which would fit my budget. After sending this to my teacher, I found out that we had a Raspberry Pi 3B v1.2, so I'm using that, along with the SD card and power which we have.
 
 ### PCB Design
 
-For this project, I needed a more complicated PCB, with spots for servos, a camera, and a lot of other parts, but they couldn't be connected. This meant I had to make a lot of ports for me to solder wires in. Also, my Raspberry Pi 3A+ had it's headers on top, so I had to design the PCB to go upside down, and plug into that. This PCB didn't have to be too complicated though - it only had to fit a servo controller, the Raspberry Pi, and spots for the battery to be soldered in.
+For this project, I needed a more complicated PCB, with spots for servos, a camera, and a lot of other parts, but they couldn't be connected. This meant I had to make a lot of ports for me to solder wires in. Also, my Raspberry Pi 3A+ had it's headers on top, so I had to design the PCB to go upside down, and plug into that. This PCB didn't have to be too complicated though - it only had to fit a servo controller, the Raspberry Pi, and spots for the battery to be soldered in. Also, my warm-up project's PCB didn't arrive for a while, due to a shipping error, so I switched to [JLCPCB.com](https://www.jlcpcb.com), which was cheaper, and had more delivery options.
