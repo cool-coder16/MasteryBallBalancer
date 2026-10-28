@@ -10,7 +10,7 @@ This class begun with our teacher, Ana Paula Giorgi (AP) teaching us how real co
 
 ## My Idea
 
-This beginning process ended, and we began brainstorming. Any idea was a good idea, but we had to trim down our list to ones which were possible, not too expensive or inaccesible, and which fit our passion, and which we would be determined to finish.
+This beginning process ended, and we began brainstorming. Any idea was a good idea, but we had to trim down our list to ones which were possible, not too expensive or inaccessible, and which fit our passion, and which we would be determined to finish.
 
 ## The Spark and Direction
 
@@ -37,8 +37,6 @@ After the PCB finally arrived, I combined everything, and it turned out like thi
 
 ## Final Project
 
-This is my final project's work.
-
 ### Parts List
 
 I used Claude to help me come up with my parts list, which filled all of my requirements. I had to cut some things which would have been nice, but were too expensive. This parts list is at [ball balancer/parts-list.md](ball%20balancer/parts-list.md), and after some iterations, I got it down to around $130, which would fit my budget. After sending this to my teacher, I found out that we had a Raspberry Pi 3B v1.2, so I'm using that, along with the SD card and power which we have.
@@ -46,3 +44,11 @@ I used Claude to help me come up with my parts list, which filled all of my requ
 ### PCB Design
 
 For this project, I needed a more complicated PCB, with spots for servos, a camera, and a lot of other parts, but they had to be removable, or for me to solder wires in. This meant I had to make a lot of ports for me for these. Also, my Raspberry Pi 3B had it's headers on top, so I had to design the PCB to go upside down, and plug into that. This PCB didn't have to be too complicated though - it only had to fit a servo controller, the Raspberry Pi, and spots for the battery to be soldered in. Also, my warm-up project's PCB didn't arrive for a while, due to a shipping error, so I switched to [JLCPCB.com](https://www.jlcpcb.com), which was cheaper, and had more delivery options.
+
+### An Unfortunate Detour
+
+For me, I faced a large problem with the Raspberry Pi, because I got a used one from school, which couldn't connect to wifi, so I spent multiple days trying to get it connected to some wifi, so that I could upload my code. Finally, I took it home, and plugged it in directly to my wifi router, giving it wifi so I could upload my code. I uploaded the code, but it stopped halfway through, because it ran out of storage. After some looking, it turned out that it only had an 8GB SD card, which was too small for the modules I needed, and the code, so I had to wait for a 16- or 32GB card. Also, in this time, my parts finally got ordered from my teacher, which meant I could finally start.
+
+## My Current Status
+
+As of now, I’ve completed my warm-up project, except for the PCB which will arrive in less than 2 weeks, and began the code for my final project, along with ordering parts for it, and setting up the SD card.
