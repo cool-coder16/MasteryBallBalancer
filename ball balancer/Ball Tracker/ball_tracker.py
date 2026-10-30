@@ -65,8 +65,9 @@ while True:
         if key == 27:
             ret_color = None
         elif key == 32:
-            cv2.imwrite(f"/Users/vivaan/Desktop/Mastery Project/openCV/Ball Tracker/images/{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.png", display)
-            print("saved to", f"/Users/vivaan/Desktop/Mastery Project/openCV/Ball Tracker/images/{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.png")
+            # relative file paths, but should work on Mac and Pi
+            cv2.imwrite(f"images/{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.png", display)
+            print("saved to", f"images/{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.png")
         else: break
 
 cap.release()
