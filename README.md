@@ -31,7 +31,7 @@ This led me to do some side projects, to acquire the knowledge I needed. So firs
 
 ## Coin Flipper
 
-First, I tested using a breadboard, because all of my parts arrived before the PCB, and it worked pretty well - all of the wiring and code worked. ![Breadboard Coin Flipper Video](images/SRC1.mp4)
+First, I tested using a breadboard, because all of my parts arrived before the PCB, and it worked pretty well - all of the wiring and code worked. <br><br> [![Breadboard Coin Flipper Video](images/breadboard_thumbnail.png)](images/breadboard_warmup.mp4)
 
 After the PCB finally arrived, I combined everything, and it turned out like this: ![Final Coin Flipper Video](images/SRC.mp4)
 
