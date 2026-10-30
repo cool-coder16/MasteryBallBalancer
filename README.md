@@ -49,6 +49,11 @@ For this project, I needed a more complicated PCB, with spots for servos, a came
 
 For me, I faced a large problem with the Raspberry Pi, because I got a used one from school, which couldn't connect to wifi, so I spent multiple days trying to get it connected to some wifi, so that I could upload my code. Finally, I took it home, and plugged it in directly to my wifi router, giving it wifi so I could upload my code. I uploaded the code, but it stopped halfway through, because it ran out of storage. After some looking, it turned out that it only had an 8GB SD card, which was too small for the modules I needed, and the code, so I had to wait for a 16- or 32GB card. After two days, our IT gave me a 128GB SD card, which was way more than I needed, but worked. Also, in this time, my parts finally got ordered from my teacher, which meant I could almost start.
 
+### Soldering Practice
+
+I needed to learn soldering, where you use a REALLY hot iron (at 400 degrees celcius) to melt soldering tin onto an electrical joint to combine them. This is commonly used on PCBs, which I was going to use, to connect parts to it. I have the Plusivo soldering kit, which has everything I needed, so for about two hours, I learned and practiced soldering on some perfboards off amazon, using resistors which I had. It was good practice, and the top ended up looking like this: <br>
+![Soldering practice image](images/soldering.jpg)
+
 ### STATUS UPDATE | 10/29/16
 
 As of now, I’ve completed my warm-up project, except for the PCB which will arrive in less than 2 weeks, and began the code for my final project, along with ordering parts for it, and setting up the SD card. My next steps include learning how to solder, and re-setting up the SD card, which is now 128GB and uploading my code to it. I'll then work on any code which I can do without tuning, such as the PID, and then when my parts arrive, I will assemble it, CAD and print my 3d-printed parts (which I will upload here), and I'll tune the code, and make it work!
