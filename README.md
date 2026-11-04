@@ -51,7 +51,7 @@ For me, I faced a large problem with the Raspberry Pi, because I got a used one 
 
 ### Soldering Practice
 
-I needed to learn soldering, where you use a REALLY hot iron (at 400 degrees celcius) to melt soldering tin onto an electrical joint to combine them. This is commonly used on PCBs, which I was going to use, to connect parts to it. I have the Plusivo soldering kit, which has everything I needed, so for about two hours, I learned and practiced soldering on some perfboards off amazon, using resistors which I had. It was good practice, and the top ended up looking like this: <br>
+I needed to learn soldering, where you use a REALLY hot iron (at 400 degrees celcius) to melt soldering tin onto an electrical joint to combine them. This is commonly used on PCBs, which I was going to use, to connect parts to it. I have the Plusivo soldering kit, which has everything I needed, so for about two hours, I learned and practiced soldering on some perfboards off amazon, using resistors which I had. It was good practice, and the top ended up looking like this: <br><br>
 ![Soldering practice image](images/soldering.jpg)
 
 ### STATUS UPDATE | 10/29/16
