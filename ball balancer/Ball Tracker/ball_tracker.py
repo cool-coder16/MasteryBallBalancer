@@ -1,6 +1,7 @@
-import cv2, math
+import cv2, math, time
 import numpy as np
 from datetime import datetime
+from picamera2 import Picamera2
 
 def get_color(event, x, y, flags, param):
     global hsv, ret_color
@@ -12,17 +13,24 @@ def change_error(val):
     global errors
     errors = (val, val, val)
 
-cap = cv2.VideoCapture(0)
-if not cap.isOpened(): raise Exception('cap not opened')
+print("running")
+
+pc2 = Picamera2()
+pc2.configure(
+    pc2.create_preview_configuration(main={"size": (640, 480), "format": "RGB888"})   
+)
+pc2.start()
+time.sleep(1)
+
 ret_color = np.array([60, 138, 26])
 window = cv2.namedWindow("Camera")
 errors = (65, 65, 65)
 cv2.setMouseCallback("Camera", get_color)
 error_tb = cv2.createTrackbar("error", "Camera", errors[0], 255, change_error)
 display = None
-while True:    
-    ret, frame = cap.read()
-    if not ret: continue
+while True:
+    frame = pc2.capture_array()
+    
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     hsv = frame.copy()
     inrange = hsv.copy()
@@ -56,9 +64,7 @@ while True:
         cv2.drawMarker(display, window_center, (0, 255, 0), cv2.MARKER_STAR, 20, 4, cv2.LINE_4)
         error = math.dist(center, window_center)
         
-    cv2.imshow("Camera", display)
-    
-    
+    cv2.imwrite("Frame.jpg", display)
     
     key = cv2.waitKey(1)
     if key != -1:
