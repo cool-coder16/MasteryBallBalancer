@@ -2,7 +2,6 @@ import cv2, math, time
 import numpy as np
 from datetime import datetime
 from picamera2 import Picamera2
-
 def get_color(event, x, y, flags, param):
     global hsv, ret_color
     if event == cv2.EVENT_LBUTTONDOWN:
@@ -76,5 +75,4 @@ while True:
             print("saved to", f"images/{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.png")
         else: break
 
-cap.release()
 cv2.destroyAllWindows()

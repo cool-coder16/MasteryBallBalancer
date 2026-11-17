@@ -51,9 +51,13 @@ For me, I faced a large problem with the Raspberry Pi, because I got a used one 
 
 ### Soldering Practice
 
-I needed to learn soldering, where you use a REALLY hot iron (at 400 degrees celcius) to melt soldering tin onto an electrical joint to combine them. This is commonly used on PCBs, which I was going to use, to connect parts to it. I have the Plusivo soldering kit, which has everything I needed, so for about two hours, I learned and practiced soldering on some perfboards off amazon, using resistors which I had. It was good practice, and the top ended up looking like this: <br><br>
+I needed to learn soldering, where you use a REALLY hot iron (at 400 degrees celcius) to melt soldering tin onto an electrical joint to combine them. This is commonly used on PCBs, which I was using, to connect parts to it. I have the Plusivo soldering kit, which has everything I needed, so for about two hours, I learned and practiced soldering on some perfboards off amazon, using resistors which I had. It was good practice, and the top ended up looking like this: <br><br>
 ![Soldering practice image](images/soldering.jpg)
 
-### STATUS UPDATE | 10/29/16
+### STATUS UPDATE | 10/29/26
 
 As of now, I’ve completed my warm-up project, except for the PCB which will arrive in less than 2 weeks, and began the code for my final project, along with ordering parts for it, and setting up the SD card. My next steps include learning how to solder, and re-setting up the SD card, which is now 128GB and uploading my code to it. I'll then work on any code which I can do without tuning, such as the PID, and then when my parts arrive, I will assemble it, CAD and print my 3d-printed parts (which I will upload here), and I'll tune the code, and make it work!
+
+### Part Arrived! | 11/12/26
+
+My parts, and PCBs finally arrived!!! This meant that I could finally solder my warm-up project together, and CAD the holder for it (which I did, but it has some issues - uploaded [here](coin-flipper/cad)), and I could start my final project. I got to work, and got my camera running the code, although I had to use `picamera2` as my module to get the input from the camera. Then, I CADed the arms on my servos, which I wired up, and connected to my CADed holder for the acrylic circle. The hardware was going along quite well, though I had to decide how far to put the servos, and what their '0' angle was going to be, before I could CAD the base. Lastly, I realized that the PCB was unneeded for the final project, because the servo driver already had spots for power and a capacitor, although I'll still use it for show.
