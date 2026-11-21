@@ -2,6 +2,8 @@ import cv2, math, time
 import numpy as np
 from datetime import datetime
 from picamera2 import Picamera2
+from kinematics import servo_angles
+
 def get_color(event, x, y, flags, param):
     global hsv, ret_color
     if event == cv2.EVENT_LBUTTONDOWN:
